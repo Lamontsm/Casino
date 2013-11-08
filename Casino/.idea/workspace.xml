@@ -23,28 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="casinocraps.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/casinocraps.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="234" selection-end="234" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CasinoCraps.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Javascript/CasinoCraps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="197" selection-end="197" vertical-scroll-proportion="0.25888324" vertical-offset="0" max-vertical-offset="408">
+            <state line="17" column="31" selection-start="409" selection-end="409" vertical-scroll-proportion="0.37890044" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pair-of-dice.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphics/pair-of-dice.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="7" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -56,7 +49,9 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -68,6 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/casinocraps.html" />
         <option value="$PROJECT_DIR$/CasinoCraps.js" />
+        <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Javascript/CasinoCraps.js" />
       </list>
     </option>
@@ -104,6 +101,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,25 +150,25 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Steve Lamont\WebstormProjects\Casino\Graphics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Steve Lamont\Documents\GitHub\Casino\Casino\HTML" />
       <recent name="C:\Users\Steve Lamont\WebstormProjects\Casino\Javascript" />
     </key>
   </component>
@@ -178,6 +176,14 @@
     <configuration default="false" name="casinocraps.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:61370/Casino/casinocraps.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -188,14 +194,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -255,7 +253,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30565372" sideWeight="0.6008584" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39914164" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -279,23 +277,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/casinocraps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/CasinoCraps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/casinocraps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="234" selection-end="234" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
+        <state line="8" column="26" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
@@ -307,7 +291,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/CasinoCraps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="197" selection-end="197" vertical-scroll-proportion="0.25888324" vertical-offset="0" max-vertical-offset="408">
+        <state line="17" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics/pair-of-dice.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="43" selection-end="43" vertical-scroll-proportion="0.05052006" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript/CasinoCraps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="409" selection-end="409" vertical-scroll-proportion="0.37890044" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
