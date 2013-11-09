@@ -2,14 +2,31 @@
  * Created by Steve Lamont on 11/6/13.
  */
 
+
 /* First let's roll the dice */
 var dice1, dice2;
+
+/* test distribution of dice rolls */
+var Histogram = [0,0,0,0,0,0,0,0,0,0,0,0], sum;
+
+for (var i = 0; i < 10; i++) {
+    dice_roll();
+    sum=dice1+dice2;
+    Histogram[sum-1]++;
+}
+document.write("<p></p>");
+document.write(Histogram);
+/*
+for (var j=1; j < 13; j++) {
+    document.write(<p></p>);
+    document.write("Sum of dice: "+j+"     Results: "+Histogram[j-1]);
+}
+*/
 document.writeln("<image src='Graphics/pair-of-dice.jpg'></image>");
 document.write("<p></p>");
 dice_roll();
 var total=dice1+dice2;
 var mark=total;
-
 var play_on=true;
 document.write("<p></p>");
 document.writeln("You rolled a..."+total);
