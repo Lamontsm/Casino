@@ -6,17 +6,18 @@
 /* First let's roll the dice */
 var dice1, dice2;
 
-/* test distribution of dice rolls */
-var Histogram = [0,0,0,0,0,0,0,0,0,0,0,0], sum;
+/* test distribution of dice rolls
+var Histogram = [0,0,0,0,0,0], sum;
 
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 1000000; i++) {
     dice_roll();
-    sum=dice1+dice2;
+    sum=dice1;
     Histogram[sum-1]++;
 }
+
 document.write("<p></p>");
 document.write(Histogram);
-/*
+
 for (var j=1; j < 13; j++) {
     document.write(<p></p>);
     document.write("Sum of dice: "+j+"     Results: "+Histogram[j-1]);
@@ -68,6 +69,8 @@ function dice_roll()
    /* this rolls the two dice and prints the outcome*/
     dice1 = Math.round(.4999+6*Math.random());
     dice2=Math.round(.4999+6*Math.random());
-   document.write("<p></p>");
+   /*
+       document.write("<p></p>");
    document.write("Die 1: "+dice1+"   Die 2: "+dice2);
+   */
    }
