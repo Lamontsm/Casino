@@ -3,8 +3,10 @@
  */
 
 
+
 /* First let's roll the dice */
 var dice1, dice2;
+
 
 /* test distribution of dice rolls
 var Histogram = [0,0,0,0,0,0], sum;
@@ -39,7 +41,7 @@ if ((total==7) || (total==11)) {
     document.write("You win!");
     play_on=false;
 }
-if ((total==2) || (total==12)) {
+if ((total==2) || (total==3) || (total==12)) {
     document.write("You crapped out!");
     play_on=false;
 }
