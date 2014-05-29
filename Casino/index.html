@@ -6,12 +6,18 @@
 </head>
 <body>
 <h3>Welcome to the site</h3>
-<form>
-    Your name: <input type="text" /><br />
-    <input type="submit" />
+<form id="frm1" action="form_action.asp">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit">
 </form>
-<script type="text/javascript" src="Javascript/Welcome.js">
-    </script>
+
+<script>
+    function myFunction() {
+        document.getElementById("frm1").submit();
+        document.writeln("Hello "+fname+"  "+lname);
+    }
+</script>
 <br />
 <p>Now let's shoot some craps</p>
 <script type="text/javascript" src="Javascript/CasinoCraps.js">
